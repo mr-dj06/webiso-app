@@ -1,0 +1,445 @@
+.learn-more {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5rem; */
+    /* margin-bottom: 5rem; */
+}
+
+.upperSection {
+    background: radial-gradient(circle, rgba(36, 48, 67, 0.079) 1%, rgba(91, 76, 53, 0.048) 10%),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.097), rgba(0, 0, 0, 0.344)),
+        url('../assets/images/bcg-img1.jpg') no-repeat center center/cover;
+    height: 38vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.insideboxuS {
+    position: relative;
+    left: 7.7rem;
+    width: 514px;
+    height: 290px;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #03030385;
+}
+
+.headingLearnMoreuS {
+    font-family: "Figtree";
+    margin: 15px 16px;
+    font-weight: 500;
+    font-size: 2.49rem;
+}
+
+.headingLearnMore1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #ffffff -6%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lowerLearnMoreuS {
+    color: #828282;
+    font-family: "Inter";
+    font-size: 1.05rem;
+    margin-left: 16px;
+}
+
+.learnMoreButtonuS {
+    background-color: #71ECB6;
+    color: #000000;
+    padding: 12px 25px;
+    margin-top: 22px;
+    margin-left: 16px;
+    font-family: "Figtree";
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learnMoreButtonuS:focus,
+.learnMoreButtonuS:hover {
+    background-color: #BAFE6D;
+    outline: none;
+}
+
+/* .lowerSection {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    margin-top: 36px;
+}
+
+.insideboxlS {
+    position: relative;
+    left: 8.2rem;
+}
+
+.headinglS {
+    width: 34vw;
+    font-family: "Figtree";
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.lowerLearnMorelS {
+    font-size: 1.04rem;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 20px;
+    line-height: 1.3rem;
+}
+
+.headingLearnMore2 {
+    background: linear-gradient(to right, #ffffff -10%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.cards {
+    color: #fff;
+    position: relative;
+    left: 10rem;
+    width: 40rem;
+    display: flex;
+    padding: 0.625rem;
+    margin: 0 5rem;
+    gap: 1.25rem;
+}
+
+.card1 {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 16px;
+    width: 256px;
+    height: 32.5vh;
+}
+
+.percentages {
+    font-family: "Figtree";
+    font-size: 3.7rem;
+    font-weight: 500;
+    margin: 8px 12px 0;
+}
+
+.cardsHeading {
+    font-family: "Figtree";
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 4px 12px 0;
+    padding-bottom: 18px;
+    color: #828282;
+}
+
+.cardsSubtitle1,
+.cardsSubtitle2 {
+    border-top-style: solid;
+    border-color: #414141;
+    border-top-width: 1.5px;
+    margin: 16px 12px 0 8px;
+    padding-top: 26px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    font-family: "Inter";
+    font-size: 1rem;
+    color: #828282;
+}
+
+.card2 {
+    border: 1.5px solid #373737;
+    padding: 20px;
+    border-radius: 16px;
+    width: 260px;
+}
+
+.learnMoreButtonlS {
+    background-color: #71ECB6;
+    color: #000000;
+    padding: 12px 26px;
+    margin-top: 18px;
+    font-family: "Figtree";
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learnMoreButtonlS:focus,
+.learnMoreButtonlS:hover {
+    background-color: #BAFE6D;
+    outline: none;
+} */
+
+/* /Responsive Design/ */
+
+@media (max-width: 1024px) {
+    .upperSection {
+        width: 100%;
+    }
+
+    .insideboxuS {
+        position: relative;
+        /* top: -3.2rem; */
+        padding: 0.5rem 1rem;
+        width: 32.8rem;
+        left: 1rem;
+    }
+
+    .headingLearnMoreuS {
+        font-size: 2rem;
+    }
+
+    .headingLearnMore1 {
+        font-size: 2rem;
+    }
+
+    .lowerLearnMoreuS {
+        width: 32rem;
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+        margin-top: 1.4rem;
+    }
+
+    .learnMoreButtonuS {
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+    }
+
+    /* .lowerSection {
+        position: relative;
+        height: 1vh;
+        margin: 0;
+        top: 0;
+    }
+
+    .insideboxlS {
+        margin-top: 3.5rem;
+    }
+
+    .headinglS {
+        position: absolute;
+        left: -5.5rem;
+        width: 90vw;
+    }
+
+    .headingLearnMorelS {
+        font-size: 2rem;
+    }
+
+    .lowerLearnMorelS {
+        font-size: 1rem;
+    }
+
+    .cards {
+        position: relative;
+        top: 22rem;
+        left: 1rem;
+        margin: 12rem 0;
+        width: 61.5rem;
+    }
+
+    .card1 {
+        width: 42.5vw;
+    }
+
+    .card2 {
+        width: 42.5vw;
+    }
+
+    .percentages {
+        font-size: 2.8rem;
+        margin: 0 0.5rem;
+    }
+
+    .cardsHeading {
+        font-size: 1.15rem;
+    }
+
+    .cardsSubtitle1,
+    .cardsSubtitle2 {
+        font-size: 0.95rem;
+        line-height: 1.3rem;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+    .upperSection {
+        width: 100vw;
+        height: 62vh;
+    }
+
+    .insideboxuS {
+        width: 49.5vw;
+        height: 45vh;
+    }
+
+    .learnMoreButtonuS {
+        margin-top: 1rem;
+    }
+
+    .lowerLearnMoreuS {
+        width: 45vw;
+    }
+
+    /* .lowerSection {
+        top: 11vh;
+        top: 6rem;
+    }
+
+    .insideboxlS {
+        left: 0;
+    }
+
+    .headinglS {
+        position: relative;
+        width: 90vw;
+        left: 3rem;
+    }
+
+    .lowerLearnMorelS {
+        width: 90vw;
+    }
+
+    .cards {
+        position: relative;
+        margin: 0;
+        top: 18rem;
+        left: -42.4rem;
+        width: 94vw;
+    }
+
+    .card1,
+    .card2 {
+        width: 55vw;
+        height: 33vh;
+    }
+
+    .cardsSubtitle1 {
+        width: 17rem;
+    }
+
+    .cardsSubtitle2 {
+        width: 15rem;
+    }
+
+    .arrows {
+        position: relative;
+        top: 1rem;
+        left: 5.5rem;
+    } */
+}
+
+@media screen and (max-width: 320px) {
+    /* .upperSection {
+        top: 33.4rem;
+    } */
+
+    .insideboxuS {
+        /* top: -4.2rem; */
+        width: 80vw;
+        height: 50vh;
+    }
+
+    .headingLearnMoreuS {
+        font-size: 1.5rem;
+        width: 60vw;
+    }
+
+    .headingLearnMore1 {
+        font-size: 1.5rem;
+    }
+
+    .lowerLearnMoreuS {
+        width: 70vw;
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+    }
+
+    /* .lowerSection {
+        top: 40.25rem;
+        left: -1rem;
+        width: 80vw;
+    }
+
+    .insideboxlS {
+        width: 50vw;
+    }
+
+    .headinglS {
+        width: 90vw;
+    }
+
+    .headingLearnMorelS {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .headingLearnMore2 {
+        margin-top: -0.5rem;
+    }
+
+    .lowerLearnMorelS {
+        font-size: 0.95rem;
+        width: 82vw;
+        line-height: 1.20rem;
+    }
+
+    .learnMoreButtonlS {
+        font-size: 0.75rem;
+        padding: 0.7rem 1.5rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        top: 26rem;
+        left: -8.9rem;
+    }
+
+    .card1,
+    .card2 {
+        width: 80vw;
+        height: 28vh;
+    }
+
+    .percentages {
+        font-size: 2rem;
+        margin-top: -0.6rem;
+    }
+
+    .cardsHeading {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .cardsSubtitle1 {
+        font-size: 0.88rem;
+        width: 70vw;
+        padding-top: 0.9rem;
+        margin-left: 0.5rem;
+    }
+
+    .cardsSubtitle2 {
+        font-size: 0.88rem;
+        width: 70vw;
+        margin-left: 0.5rem;
+    }
+
+    .arrows {
+        position: relative;
+        top: 1rem;
+        left: 5.5rem;
+    } */
+}

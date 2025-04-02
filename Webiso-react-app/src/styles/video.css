@@ -1,0 +1,203 @@
+/* .vid-con {
+    margin-bottom: -15rem;
+}
+
+.video-container {
+    position: relative;
+    margin: 1rem 6rem;
+    height: 27vw;
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    background: url('../assets/images/video_bg.jpg') center no-repeat;
+    background-size: cover;
+    box-shadow: inset -3rem -3rem 15rem rgb(0 0 0 / 30%), inset 3rem 3rem 15rem rgb(0 0 0 / 30%);
+    z-index: 1;
+}
+
+.video-iframe {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.play-btn-container {
+    display: 'flex';
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.text-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1rem;
+    min-height: 20vw;
+    min-width: 40vw;
+}
+
+.play-btn {
+    color: #71ECB6;
+    padding: 1.75rem;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2.5rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    color: black;
+    background-color: #BAFE6D;
+}
+
+.text-title {
+    color: #f8f8f8;
+    font-family: "Figtree";
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    max-width: 32.8vw;
+}
+
+.title-gradiant {
+    font-weight: bold;
+    background: linear-gradient(to right, #ffffff -4%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-br {
+    display: none;
+}
+
+.fullscreen-iframe-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.fullscreen-iframe {
+    width: 60%;
+    height: 70%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: none;
+    color: rgb(200, 200, 200);
+    border: solid 1px;
+    padding: 8px 14px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: ease-in-out 0.2s;
+}
+
+.close-btn:hover {
+    color: white;
+    border: solid black 1px;
+}
+
+@media (max-width:1024px) {
+    .vid-con {
+        position: relative;
+        top: 18rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .video-container {
+        margin: 0;
+        width: 95vw;
+        height: 35vw;
+    }
+
+    .text-container {
+        height: 25vw;
+        width: 55vw;
+    }
+
+    .text-title {
+        font-size: 31px;
+        min-width: 40vw;
+    }
+
+    .fullscreen-iframe {
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    .video-container {
+        top: 17rem;
+        height: 50vw;
+        width: 96vw;
+    }
+
+    .text-container {
+        height: 38vw;
+        width: 72vw;
+        padding-block: 0;
+    }
+
+    .text-title {
+        min-width: 60vw;
+    }
+
+    .fullscreen-iframe {
+        height: 60%;
+        width: 90%;
+    }
+}
+
+@media (max-width:320px) {
+    .vid-con {
+        top: 66rem;
+    }
+
+    .video-container {
+        height: 100vw;
+        width: 96vw;
+    }
+
+    .text-container {
+        height: 90vw;
+        width: 80vw;
+    }
+
+    .text-title {
+        font-size: 24px;
+        max-width: 60vw;
+    }
+
+    .text-br {
+        display: flex;
+    }
+
+    .fullscreen-iframe {
+        height: fit-content;
+        width: fit-content;
+    }
+} */

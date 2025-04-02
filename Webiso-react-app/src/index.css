@@ -1,0 +1,28 @@
+:root {
+    font-family: "Figtree";
+}
+
+body {
+    margin: 0;
+    background-color: #151515;
+    /* cursor: url('../public/cursor2.cur') 16 16, auto; */
+}
+
+/* body:active {
+    cursor: url('../cursorClicked1.cur') 16 16, auto;
+} */
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}

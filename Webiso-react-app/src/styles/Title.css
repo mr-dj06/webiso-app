@@ -1,0 +1,60 @@
+.breadCrub {
+    font-family: "Figtree";
+    background: url("../assets/images/bg-title.jpeg"),
+        rgba(0, 0, 0, 0.25);
+    background-blend-mode: overlay;
+    background-position: bottom;
+    background-size: cover;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadCrubTitle {
+    font-family: "Figtree";
+    font-weight: 500;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    gap: 20px;
+}
+
+.breadCrub-title {
+    /* margin-top: 2rem; */
+    font-size: 61px;
+    background: linear-gradient(to right, #ffffff -4%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.breadCrub-subTitle {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+@media(max-width:1024px) {
+    .breadCrub-title {
+        font-size: 44px;
+    }
+
+    .breadCrub-subTitle {
+        font-size: 21px;
+    }
+}
+
+@media(max-width:320px) {
+    .breadCrub-title {
+        font-size: 32px;
+    }
+
+    .breadCrub-subTitle {
+        font-size: 18px;
+    }
+}
