@@ -29,6 +29,10 @@ npm install (install dependencies)
 npm run dev (run the application)
 ```
 
+## Implementation
+
+![image](https://github.com/user-attachments/assets/a6771bf0-985e-4ffd-addf-47b22443e9b4)
+
 ## Conclusion
 
 This is a new age animated digital agency website. This could be great starting point to learn animations using framer-motion. In this I have also implemented backend to manage user's data and to store I have used MongoDB —a NoSQL database to retrieve faster data.
