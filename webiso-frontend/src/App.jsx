@@ -1,14 +1,6 @@
-import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
-import Banner from './components/Banner'
-import About from './components/About'
-import Learnmore from './components/Learnmore'
-import Slider from './components/Slider'
-import Video from './components/video'
-import Start from './components/start'
-import Products from './components/Products'
-import Review from './components/Review'
+
 import Footer from './components/Footer'
 
 import Homepage from './pages/Homepage/Homepage'
