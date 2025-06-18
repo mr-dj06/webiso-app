@@ -1,0 +1,365 @@
+.about {
+    position: relative;
+    display: flex;
+    margin: 0 6rem 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree";
+    max-width: 100%;
+    /* top: 6rem; */
+}
+
+.about-img-left {
+    width: 50%;
+    align-items: start;
+}
+
+.about-img-left img {
+    display: block;
+    height: 500px;
+    width: 608px;
+    object-fit: cover;
+    border-radius: 0.8rem;
+    opacity: 0.9;
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition: ease 0.8s;
+}
+
+.about-img-left img:hover {
+    opacity: 1;
+    filter: brightness(100%) contrast(100%);
+}
+
+.about-img-text-container {
+    font-family: "Figtree";
+}
+
+.about-img-text {
+    top: 50%;
+    margin-left: -2rem;
+    padding: 0.8rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+.about-img-text>ul {
+    display: flex;
+    padding: 0.6rem 3.5rem 0.3rem 0;
+    margin: 0 0 0.6rem;
+}
+
+.about-img-text>ul:not(:first-child) {
+    border-top-style: solid;
+    border-color: rgba(67, 67, 67, 0.6);
+    border-top-width: 1px;
+}
+
+.about-img-text-span {
+    padding-top: 4px;
+}
+
+#check {
+    color: #71ECB6;
+    font-size: 1.2rem;
+    padding: 4px 10px 2px 4px;
+    margin-bottom: -5px;
+}
+
+.about-right {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+
+.about-right-container {
+    justify-content: center;
+    padding: 3rem 1rem 3rem 5rem;
+}
+
+.about-heading {
+    color: #BAFE6D;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.about-title {
+    color: #f8f8f8;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.grad {
+    display: none;
+}
+
+.about-title-gradiant {
+    font-weight: bold;
+    background: linear-gradient(to right, #ffffff -4%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-desc {
+    font-family: "Inter";
+    line-height: 1.3rem;
+    max-width: 34rem;
+    font-size: 1rem;
+    color: #828282;
+    padding-right: 2rem;
+    padding-bottom: 0.75rem;
+}
+
+.counters {
+    padding: 1.313rem 4%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-color: rgba(67, 67, 67, 0.6);
+    border-top-width: 1px;
+}
+
+.counter {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cnt {
+    margin: 0;
+    font-family: "Figtree";
+}
+
+.counter-suffix {
+    padding-left: 2px;
+}
+
+.cnt-title {
+    color: #828282;
+    font-size: 1.25rem;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.about-discover-btn {
+    margin: 0.625rem 0 0;
+    border-top-style: solid;
+    border-color: rgba(67, 67, 67, 0.6);
+    border-top-width: 1px;
+}
+
+.discover-more-btn {
+    margin-top: 25px;
+    font-family: "Inter";
+    background-color: #71ECB6;
+    color: #000;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    /* font-weight: 500; */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.discover-more-btn:hover {
+    background-color: #BAFE6D;
+}
+
+.discover-more-btn:focus {
+    background-color: #BAFE6D;
+    outline: none;
+}
+
+/*Responsive Styles*/
+@media (max-width:1024px) {
+    .about {
+        /* top: 10rem; */
+        flex-direction: column;
+    }
+
+    .about-left {
+        padding-left: 1rem;
+    }
+
+    .about-img-left img {
+        height: 48vw;
+        width: 92vw;
+    }
+
+    .about-img-text {
+        top: 26vw;
+    }
+
+    .about-img-text>ul {
+        padding-right: 50px;
+    }
+
+    #check {
+        font-size: 18px;
+    }
+
+    .about-img-text-span {
+        font-size: 15px;
+    }
+
+    .about-right {
+        width: 90vw;
+    }
+
+    .about-right-container {
+        padding: 0px;
+        width: 100vw;
+    }
+
+    .about-title {
+        font-size: 31px;
+    }
+
+    .about-desc {
+        max-width: none;
+        font-size: 15px;
+    }
+
+    .counters {
+        justify-content: space-around;
+        padding: 1rem 0.25rem;
+    }
+
+    .cnt,
+    .counter-suffix {
+        font-size: 2.3rem;
+    }
+
+    .cnt-title {
+        font-size: 1.12rem;
+    }
+
+    .discover-more-btn {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:768px) {
+    .about {
+        margin: 0 6rem 5rem;
+        padding: 0;
+    }
+
+    .about-img-left img {
+        height: 65vw;
+        width: 90vw;
+    }
+
+    .about-img-text {
+        top: 36vw;
+        font-size: 0.8rem;
+    }
+
+    .about-right-container {
+        padding-top: 4.8rem;
+    }
+}
+
+@media (max-width:480px) {
+    .about-img-left img {
+        height: 25rem;
+        width: 90vw;
+    }
+
+    .about-img-text {
+        top: 26%;
+    }
+
+    .about-img-text-span {
+        font-size: 14px;
+        padding-top: 5px;
+        width: 45vw;
+    }
+
+    .about-img-text>ul {
+        padding: 0;
+    }
+
+    .about-right-container {
+        padding: 1rem;
+    }
+
+    .grad {
+        display: flex;
+    }
+
+    .counters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 0;
+    }
+
+    .counter {
+        line-height: 3rem;
+    }
+
+    .cnt,
+    .counter-suffix {
+        font-size: 1.8rem;
+    }
+
+    .cnt-title {
+        display: flex;
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:375px) {
+    .about {
+        /* top: 32.5rem; */
+        margin-bottom: 1rem;
+    }
+
+    .about-img-left img {
+        width: 90vw;
+    }
+
+    .about-img-text {
+        top: 26%;
+    }
+
+    .about-img-text-span {
+        font-size: 14px;
+        padding-top: 5px;
+        width: 50vw;
+    }
+
+    .about-img-text>ul {
+        padding: 0;
+    }
+
+    .about-right {
+        margin-top: 2rem;
+    }
+
+    .about-heading {
+        font-size: 12px;
+    }
+
+    .about-title {
+        font-size: 24px;
+    }
+
+    .about-desc {
+        font-size: 14px;
+    }
+}

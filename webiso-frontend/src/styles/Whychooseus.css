@@ -1,0 +1,316 @@
+/* Whychooseus.css */
+.whyChooseUsSection {
+    position: relative;
+    /* top: 12rem; */
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+    color: #fff;
+    gap: 8rem;
+    overflow: hidden;
+}
+
+.whyChooseUsLeftSideSection {
+    margin-top: 4rem;
+}
+
+.whyChooseUsSectionTitle {
+    font-family: 'Figtree';
+    text-transform: uppercase;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #BAFE6D;
+    margin-bottom: 1.6rem;
+}
+
+.whyChooseUsMainTitle {
+    font-family: 'Figtree';
+    font-size: 2.4rem;
+    font-weight: 480;
+    width: 35vw;
+    margin-bottom: 1.2rem;
+}
+
+.whyChooseUsMainGradTitle {
+    font-weight: 700;
+    background: linear-gradient(to right, #ffffff -4%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whyChooseUsDescription {
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #828282;
+    width: 35vw;
+    margin-bottom: 20px;
+}
+
+.whyChooseUsContentsItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.whyChooseUsItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 15px;
+    border-bottom: 1.5px solid #FFFFFF2B;
+    width: 35vw;
+    cursor: pointer;
+    line-height: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.whyChooseUsItem h3 {
+    font-family: 'Figtree';
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: #828282;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    transition: border-color 0.3s ease-in-out;
+    /* Space between icon and text */
+}
+
+.whyChooseUsItem h3 svg {
+    transition: color 0.3s ease-in-out;
+    /* Smooth transition for icon color */
+}
+
+.whyChooseUsItem.active {
+    border-bottom: 1.5px solid #71ECB6;
+    transition: all 0.3s ease-in-out;
+    /* Active border color */
+}
+
+.whyChooseUsItem.active h3 {
+    color: #F8F8F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.whyChooseUsItem.active h3 svg {
+    color: #71ECB6;
+}
+
+.whyChooseUsItem p {
+    font-family: "Inter";
+    margin: 10px 0 0 0;
+    font-size: 1.0rem;
+    color: #828282;
+    width: 35vw;
+    line-height: 1.425rem;
+}
+
+.whyChooseUsItem.active p {
+    transition: all 0.5s ease-in-out;
+}
+
+.whyChooseUsItem:last-child {
+    border-bottom: none;
+}
+
+.whyChooseUsRightSideSection {
+    border-radius: 5px;
+}
+
+.whyChooseUsRightImg {
+    position: relative;
+    border-radius: 1rem;
+    right: 2rem;
+    scale: 95%;
+}
+
+.whyChooseUsPercentageSection {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 19vw;
+    height: 20.5vw;
+    border-radius: 0.5rem;
+    transform: translate(-2rem, -19.2rem);
+}
+
+.whyChooseUsPgSpeed,
+.whyChooseUsPgSpeedDescription {
+    font-family: 'Figtree';
+}
+
+.whyChooseUsPgSpeed {
+    color: #F8F8F8;
+    font-size: 1.6rem;
+    font-weight: 200;
+    margin-top: 1.6rem;
+}
+
+.whyChooseUsPgSpeedDescription {
+    color: #828282;
+    font-size: 0.95rem;
+    padding-inline: 1.5rem;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.whyChooseUsCircularProgress {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyChooseUsCircularProgressBar {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    border-radius: 50%;
+    mask: radial-gradient(transparent 50%, black 51%);
+    -webkit-mask: radial-gradient(transparent 64%, black 51%);
+    /* transition: background 0.5s ease-in-out; */
+}
+
+.whyChooseUsCircularProgressText {
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+/* /Responsive Design/  */
+@media (max-width:1024px) {
+    .whyChooseUsSection {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 2rem;
+        gap: 0;
+    }
+
+    .whyChooseUsLeftSideSection {
+        margin: 0;
+    }
+
+    .whyChooseUsMainTitle {
+        width: 100%;
+    }
+
+    .whyChooseUsDescription {
+        width: 100%;
+    }
+
+    .whyChooseUsItem {
+        width: 100%;
+    }
+
+    .whyChooseUsSectionTitle {
+        font-size: 0.8rem;
+    }
+
+    .whyChooseUsMainTitle {
+        font-size: 1.925rem;
+    }
+
+    .whyChooseUsDescription {
+        font-size: 0.94rem;
+    }
+
+    .whyChooseUsItem h3 {
+        font-size: 1.35rem;
+    }
+
+    .whyChooseUsItem p {
+        width: 100%;
+        font-size: 0.935rem;
+        line-height: 1.3rem;
+    }
+
+    .whyChooseUsRightImg {
+        object-fit: cover;
+        width: 1050px;
+        height: 640px;
+    }
+
+    .whyChooseUsPercentageSection {
+        width: 30vw;
+        height: 31vw;
+    }
+}
+
+@media (max-width:768px) {
+    .whyChooseUsRightImg {
+        object-fit: cover;
+        width: 940px;
+    }
+
+    .whyChooseUsPercentageSection {
+        width: 38.8vw;
+        height: 40vw;
+    }
+}
+
+@media (max-width:320px) {
+    .whyChooseUsSection {
+        position: relative;
+        padding: 2rem 1.8rem;
+        height: 72rem;
+    }
+
+    .whyChooseUsSectionTitle {
+        font-size: 0.75rem;
+    }
+
+    .whyChooseUsMainTitle {
+        font-size: 1.5rem;
+    }
+
+    .whyChooseUsDescription {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+
+    .whyChooseUsItem h3 {
+        font-size: 1.225rem;
+    }
+
+    .whyChooseUsItem p {
+        font-size: 0.927rem;
+        line-height: 1.2rem;
+    }
+
+    .whyChooseUsRightImg {
+        object-fit: cover;
+        width: 440px;
+        height: 300px;
+        scale: 100%;
+        top: 1rem;
+        left: 0;
+    }
+
+    .whyChooseUsPercentageSection {
+        position: relative;
+        /* top: 10rem; */
+        margin-top: 9.2rem;
+        width: 13rem;
+        height: 18rem;
+    }
+
+    .whyChooseUsPgSpeed {
+        font-size: 1.2rem;
+    }
+
+    .whyChooseUsPgSpeedDescription {
+        margin-top: 0.8rem;
+        font-size: 0.825rem;
+    }
+}

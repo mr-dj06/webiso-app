@@ -1,0 +1,44 @@
+.brand-slider {
+    position: relative;
+    margin-top: 5vw;
+    padding: 3vw 5vw;
+    border-top-style: solid;
+    border-color: #545454;
+    border-top-width: 1px;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 24px;
+}
+
+.slider-imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    height: 2.5rem;
+    width: 10rem;
+}
+
+@media (max-width:1024px) {
+    .swiper-slide img {
+        height: 2rem;
+        width: 8rem;
+    }
+
+    .brand-slider {
+        padding: 4vw 0;
+    }
+}
+
+/* @media (max-width:320px) {
+    .brand-slider {
+        top: 32.5rem;
+    }
+} */

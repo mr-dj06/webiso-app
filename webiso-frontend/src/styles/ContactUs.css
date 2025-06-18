@@ -1,0 +1,362 @@
+.f1 {
+    font-family: "Figtree";
+}
+
+.f2 {
+    font-family: "Inter";
+    color: #848484;
+    line-height: 1.4rem;
+}
+
+.contact-con {
+    position: relative;
+    color: white;
+}
+
+.contact-details-con {
+    display: flex;
+    margin: 0 7%;
+    padding-block: 120px;
+    gap: 2rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    padding: 48px 80px 48px 16px;
+    gap: 1.2rem;
+}
+
+.contact-heading {
+    font-size: 14px;
+    color: #BAFE6D;
+    text-transform: uppercase;
+}
+
+.contact-title {
+    font-size: 39px;
+    font-weight: 550;
+}
+
+.contact-grad {
+    background: linear-gradient(to right, #ffffff -4%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-subTitle {
+    padding-bottom: 2rem;
+    border-bottom-style: solid;
+    border-color: #414141;
+    border-bottom-width: 1.5px;
+}
+
+.con-desc {
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-icon {
+    font-size: 30px;
+    color: black;
+    background-color: #BAFE6D;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.con-add-title,
+.con-email-title,
+.con-phone-title {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.map {
+    width: 100%;
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition: filter 0.3s ease;
+}
+
+.map:hover {
+    filter: brightness(100%) contrast(100%);
+}
+
+/* Form styles */
+.contact-form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.consultation-form-container {
+    /* width: 100%; */
+    max-width: 600px;
+    padding: 1rem 2rem 3rem 3.2rem;
+    background-color: #191919;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.consultation-form-container h2 {
+    /* text-align: center; */
+    font-weight: 500;
+    font-size: 39px;
+    margin-bottom: 20px;
+    color: #F8F8F8;
+    font-family: "Figtree";
+}
+
+.con-formSubTitle {
+    font-family: 'Inter';
+    color: #828282;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: "Figtree";
+}
+
+.form-group input,
+.form-group textarea {
+    width: 108%;
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    background-color: #242424;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Inter";
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #71ECB6;
+    box-shadow: 0 0 0 2px #71ecb73f;
+    color: #fff;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #71ECB6;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: "Figtree";
+}
+
+.submit-button:hover {
+    background-color: #BAFE6D;
+    /* transform: translateY(-2px); */
+}
+
+/* .submit-button:active {
+    transform: translateY(0);
+} */
+
+.con-nameCompany {
+    display: flex;
+    gap: 4rem;
+    max-width: 600px;
+}
+
+.con-phoneEmail {
+    display: flex;
+    gap: 4rem;
+    max-width: 600px;
+}
+
+.con-subject {
+    max-width: 523px;
+}
+
+.con-message {
+    max-width: 523px;
+}
+
+.con-submitbtn {
+    max-width: 586px;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .contact-details-con {
+        padding-block: 80px;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    
+    .contact-details {
+        width: 45%;
+        padding: 48px 28px;
+    }
+
+    .contact-heading {
+        font-size: 13px;
+    }
+
+    .contact-title {
+        font-size: 31px;
+    }
+
+    .contact-subTitle {
+        font-size: 15px;
+    }
+
+    .con-add-title, .con-email-title, .con-phone-title{
+        font-size: 18px;
+    }
+
+    .f2 {
+        font-size: 15px;
+    }
+    
+    .consultation-form-container {
+        width: 100%;
+        padding: 1.5rem 2rem;
+    }
+
+    .consultation-form-container h2{
+        margin: 0;
+        font-size: 31px;
+    }
+
+    .con-formSubTitle{
+        font-size: 15px;
+    }
+
+    .con-nameCompany {
+        gap: 1.6rem;
+        max-width: 390px;
+    }
+
+    .con-phoneEmail {
+        gap: 1.6rem;
+        max-width: 390px;
+    }
+
+    .form-group input, .form-group textarea {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-details-con {
+        padding-right: 1rem;
+        margin: 0;
+        padding-block: 40px;
+    }
+
+    .contact-details {
+        width: 40%;
+    }
+    
+    .contact-title {
+        font-size: 31px;
+    }
+
+    .con-nameCompany{
+        gap: 1.8rem;
+        max-width: 288px;
+    }
+
+    .con-phoneEmail {
+        gap: 1.8rem;
+        max-width: 288px;
+    }
+}
+
+@media (max-width: 426px) {
+    .contact-details-con {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 0.5rem;
+    }
+
+    .contact-details{
+        width: 85%;
+        padding: 2rem 1.6rem;
+    }
+
+    .contact-heading {
+        font-size: 12px;
+    }
+
+    .contact-title {
+        /* max-width: 300px; */
+        font-size: 24px;
+    }
+
+    .f2{
+        font-size: 14px;
+    }
+
+    .con-add-title, .con-email-title, .con-phone-title {
+        font-size: 16px;
+    }
+
+    .contact-icon {
+        padding: 0.75rem;
+    }
+
+    .consultation-form-container {
+        width: 80%;
+        margin-bottom: 2.5rem;
+    }
+
+    .consultation-form-container h2 {
+        font-size: 24px;
+    }
+
+    .con-formSubTitle {
+        font-size: 14px;
+    }
+
+    .con-nameCompany {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .con-phoneEmail {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form-group input, .form-group textarea{
+        width: 110%;
+    }
+
+    .con-subject {
+        max-width: 288px;
+    }
+
+    .con-message {
+        max-width: 288px;
+    }
+}

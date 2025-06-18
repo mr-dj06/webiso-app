@@ -1,0 +1,844 @@
+/* Banner Section */
+/* .banner-container {
+    display: flex;
+    flex-direction: column;
+} */
+.banner {
+    background: radial-gradient(circle, rgba(36, 48, 67, 0.079) 1%, rgba(91, 76, 53, 0.048) 10%),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0.638)),
+        url('../assets/images/banner-image.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    height: 98vh;
+}
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* top: 30%; */
+    width: 35rem;
+}
+
+.bannerTitle {
+    display: flex;
+    font-family: "Figtree";
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 30rem;
+}
+
+.gradTitle {
+    font-weight: 600;
+    background: linear-gradient(to right, #ffffff -4%, #7DCFFF 12%, #71ECB6, #BAFE6D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.1;
+}
+
+.bannerSubtitle {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 15.6px;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    line-height: 1.4rem;
+    text-align: center;
+}
+
+.bannerButtons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bannerButton {
+    font-family: "Figtree";
+    margin-top: 9px;
+    padding: 15px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.bannerButton.primaryButton {
+    background-color: #71ECB6;
+    color: #000000;
+}
+
+.bannerButton.primaryButton:focus,
+.bannerButton.primaryButton:hover {
+    background-color: #BAFE6D;
+    outline: none;
+}
+
+.bannerButton.secondaryButton {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.bannerButton.secondaryButton:focus,
+.bannerButton.secondaryButton:hover {
+    background-color: #BAFE6D;
+    border: 1px solid;
+    color: #000;
+    outline: none;
+}
+
+.freeconwhatwedo {
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.whatwedo {
+    display: flex;
+    width: 48%;
+    padding: 80px;
+    padding-left: 16px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    line-height: 1.35rem;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.box1,
+.box2 {
+    padding: 1rem;
+}
+
+/* .box1 {
+    margin-right: 30px;
+} */
+
+.box1Content {
+    margin-top: 0;
+}
+
+.headingBox1,
+.headingBox2 {
+    font-family: "Figtree";
+    font-size: 1.55rem;
+    font-weight: 100;
+}
+
+.subtitleBox1,
+.subtitleBox2 {
+    color: #828282;
+    font-family: "Inter";
+    font-size: 1rem;
+    /* margin-right: 10px; */
+}
+
+.box2 {
+    /* margin-right: 50px; */
+}
+
+.box2Content {
+    /* margin-top: 17px; */
+}
+
+.rotatedText {
+    font-family: "Figtree";
+    position: absolute;
+    width: 20rem;
+    rotate: -90deg;
+    translate: -11.2rem 17rem;
+    /* bottom: 0; */
+    /* border: solid; */
+    /* top: 133%;
+    right: 32%; */
+    z-index: 1;
+    /* left: 46%; */
+    font-size: 31px;
+    color: #71ECB6;
+    transform-origin: center;
+}
+
+.freeCon {
+    /* position: absolute; */
+    /* top: 82%;
+    left: 58.5%; */
+    margin-top: -6rem;
+    font-family: "Figtree";
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    width: 27.5rem;
+    padding: 3rem 2.2rem;
+    border-radius: 16px;
+}
+
+.headingFreeCon {
+    margin-top: 0.1rem;
+    margin-left: 0.8rem;
+    font-weight: 200;
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.nameCompany {
+    display: flex;
+    margin-left: 0.8rem;
+    color: #000;
+}
+
+input[name="name"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 11px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[name="name"]::placeholder {
+    color: #888;
+}
+
+input[name="name"]:focus {
+    color: #000;
+}
+
+input[name="company"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 11px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[name="company"]::placeholder {
+    color: #888;
+}
+
+input[name="company"]:focus {
+    color: #000;
+}
+
+.phoneEmail {
+    display: flex;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+input[name="phone"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 11px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[name="phone"]::placeholder {
+    color: #888;
+}
+
+input[name="phone"]:focus {
+    color: #000;
+}
+
+input[name="email"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 11px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+input[name="email"]::placeholder {
+    color: #888;
+}
+
+input[name="email"]:focus {
+    color: #000;
+}
+
+.subject {
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+input[name='subject'] {
+    margin-top: 2px;
+    background-color: #2424241A;
+    width: 90%;
+    padding: 11px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.message-container {
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.message {
+    background-color: #2424241A;
+    width: 89.89%;
+    height: 3.4rem;
+    max-height: 14vh;
+    margin-top: 0.2rem;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Arial';
+    font-size: 16px;
+    outline: none;
+    resize: vertical;
+}
+
+.message:focus {
+    color: #000;
+}
+
+.error {
+    font-size: small;
+    color: red;
+    margin: 0;
+}
+
+.clear-btn {
+    font-family: "Figtree";
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-left: -5px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.clear-btn:focus,
+.clear-btn:hover {
+    text-decoration: underline;
+    outline: none;
+}
+
+.getAppointment {
+    margin-left: 0.8rem;
+}
+
+.appointment {
+    font-family: 'Figtree';
+    background-color: #71ECB6;
+    text-align: center;
+    width: 98%;
+    padding: 11px 16px;
+    margin-top: 0.4rem;
+    font-size: 14px;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.appointment:focus,
+.appointment:hover {
+    background-color: #BAFE6D;
+}
+
+/* Responsive Design */
+
+/* @media screen and (max-width: 1440px) {
+    .whatwedo {
+        margin: 4.8rem 0 0 5.4rem;
+    }
+
+    .freeCon {
+        top: 39rem;
+        left: 54rem;
+    }
+
+    .rotatedText {
+        top: 57.01rem;
+        left: 42.6rem;
+    }
+} */
+
+/* Responsive Design */
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        width: 100vw;
+        height: 95vh;
+    }
+
+    .bannerContent {
+        width: 30rem;
+    }
+
+    .bannerTitle {
+        font-size: 2.65rem;
+        width: 40rem;
+    }
+
+    .gradTitle {
+        width: 10rem;
+    }
+
+    .bannerSubtitle {
+        font-size: 0.92rem;
+        margin-top: 1rem;
+    }
+
+    .bannerButton {
+        margin-top: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        width: 100vw;
+        height: 88vh;
+    }
+
+    .bannerContent {
+        /* top: 15rem; */
+        width: 65vw;
+    }
+
+    .bannerTitle {
+        font-size: 2.7rem;
+    }
+
+    .bannerSubtitle {
+        margin-top: 1.2rem;
+        font-size: 0.95rem;
+        line-height: 1.3rem;
+    }
+
+    .bannerButton {
+        font-size: 0.9rem;
+        padding: 0.9rem 1.5rem;
+        border-radius: 52px;
+    }
+}
+
+@media (max-width: 426px) {
+    .banner {
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .bannerContent {
+        /* top: 6.5rem; */
+        width: 75vw;
+    }
+
+    .bannerTitle {
+        font-size: 2rem;
+        width: 85vw;
+        line-height: 1.5rem;
+    }
+
+    .bannerSubtitle {
+        font-size: 0.85rem;
+    }
+
+    .bannerButtons {
+        display: flex;
+        flex-direction: column;
+        margin-top: -0.4rem;
+    }
+
+    .bannerButton {
+        font-size: 0.95rem;
+        margin: 0;
+        padding: 0.7rem 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* .banner-container {
+        padding-bottom: 4rem;
+    } */
+
+    .freeconwhatwedo {
+        margin-block: 30px;
+    }
+
+    .whatwedo {
+        position: relative;
+        margin: 0;
+        padding: 30px;
+        /* left: 5rem; */
+    }
+
+    .rotatedText {
+        /* position: absolute;
+        top: 60rem;
+        left: 23.8rem; */
+        translate: -11.2rem 17.5rem;
+        font-size: 1.65rem;
+
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        /* width: 50vw; */
+        /* top: 1rem; */
+        /* left: -3.2rem; */
+        line-height: 1.5rem;
+        /* gap: 1rem; */
+        justify-content: space-between;
+        /* margin-top: 1rem; */
+    }
+
+    .box2 {
+        /* margin-top: 2.7rem; */
+    }
+
+    .freeCon {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10rem;
+        /* top: 38rem; */
+        /* left: 35rem; */
+        width: 24rem;
+        padding: 3rem 2rem;
+    }
+
+    .headingFreeCon {
+        font-size: 1.6rem;
+    }
+
+    .nameCompany {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.3rem;
+        gap: 0.7rem;
+    }
+
+    input[name="name"] {
+        width: 20.2rem;
+    }
+
+    input[name="company"] {
+        width: 20.2rem;
+    }
+
+    input[name="subject"] {
+        width: 20.2rem;
+    }
+
+    .phoneEmail {
+        margin-top: 0.7rem;
+        gap: 0.4rem;
+    }
+
+    input[name="phone"] {
+        width: 8.8rem;
+    }
+
+    input[name="email"] {
+        width: 8.86rem;
+    }
+
+    .message-container {
+        margin-top: 0.7rem;
+    }
+
+    .message {
+        width: 20.2rem;
+    }
+
+    .getAppointment {
+        width: 22.75rem;
+    }
+
+    .headingBox1,
+    .headingBox2 {
+        font-size: 1.3rem;
+    }
+
+    .subtitleBox1,
+    .subtitleBox2 {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* .whatwedo {
+        position: relative;
+        margin: 0;
+        left: 0;
+    } */
+
+    /* .boxes {
+        left: 1.8rem;
+        width: 70vw;
+    } */
+
+    .globeimg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .settingimg {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+    .headingBox1,
+    .headingBox2 {
+        font-size: 1.32rem;
+    }
+
+    .subtitleBox1,
+    .subtitleBox2 {
+        font-size: 0.95rem;
+        line-height: 1.22rem;
+    }
+
+    .boxes {
+        padding: 0;
+        gap: 0;
+        /* width: 46.9vw; */
+    }
+
+    .box2 {
+        /* margin-top: 0; */
+    }
+
+    .rotatedText {
+        /* top: 51.8rem; */
+        /* left: 14.5rem; */
+        font-size: 1.5rem;
+    }
+
+    .freeCon {
+        /* top: 31.8rem; */
+        /* left: 25.5rem; */
+        width: 36vw;
+        /* height: 75vh; */
+        padding: 3rem 2rem;
+    }
+
+    .headingFreeCon {
+        font-size: 1.6rem;
+    }
+
+    .nameCompany,
+    .phoneEmail,
+    .message,
+    .message-container {
+        font-size: 0.95rem;
+    }
+
+    .nameCompany {
+        gap: 0.8rem;
+    }
+
+    .phoneEmail,
+    .message-container {
+        margin-top: 0.8rem;
+    }
+
+    .phoneEmail {
+        gap: 0.8rem;
+    }
+
+    .message-container {
+        margin-top: 0.7rem;
+    }
+
+    .message {
+        width: 13.8rem;
+        font-size: 0.95rem;
+        height: 8vh;
+    }
+
+    input[name="name"] {
+        width: 13.8rem;
+        font-size: 0.95rem;
+    }
+
+    input[name="company"] {
+        width: 13.8rem;
+        font-size: 0.95rem;
+    }
+
+    input[name="phone"] {
+        width: 5rem;
+        font-size: 0.95rem;
+        width: 5rem;
+    }
+
+    input[name="email"] {
+        width: 5.88rem;
+        font-size: 0.95rem;
+    }
+
+    input[name="subject"] {
+        width: 13.8rem;
+    }
+
+    input[name="appointment"] {
+        font-size: 0.75rem;
+        width: 14rem;
+        border-radius: 2rem;
+    }
+
+    .getAppointment {
+        width: 16.2rem;
+    }
+}
+
+/* @media(max-width:425px) {
+    .freeconwhatwedo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+} */
+
+@media (max-width: 426px) {
+    .rotatedText {
+        /* left: 1rem;
+        top: 1rem; */
+    }
+
+    .freeconwhatwedo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .whatwedo {
+        /* top: 33rem; */
+        /* width: 80vw; */
+    }
+
+    .freeCon {
+        margin-top: 0;
+        left: 2rem;
+        position: relative;
+        /* right: 0; */
+        /* position: relative; */
+        /* top: 28.8rem; */
+        /* left: 1.8rem; */
+        width: 80vw;
+        /* height: 71vh; */
+        padding: 1.8rem 1rem;
+    }
+
+    .headingFreeCon {
+        font-size: 1.25rem;
+    }
+
+    .nameCompany,
+    .phoneEmail,
+    .message-container {
+        font-size: 0.88rem;
+    }
+
+    .phoneEmail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[name="name"] {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    input[name="company"] {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    input[name="phone"] {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    input[name="email"] {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    input[name="subject"] {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    .message {
+        width: 80%;
+        height: 7vh;
+    }
+
+    .getAppointment {
+        /* width: 10rem; */
+    }
+
+    .appointment {
+        width: 115%;
+        font-size: 0.74rem;
+    }
+
+    .rotatedText {
+        translate: -9rem 28rem;
+        font-size: 1.25rem;
+        /* top: 50.59rem; */
+        /* left: -9.05rem; */
+    }
+
+    .box1Content {
+        /* width: 85vw; */
+    }
+
+    .headingBox1,
+    .headingBox2 {
+        font-size: 1.12rem;
+    }
+
+    .subtitleBox1,
+    .subtitleBox2 {
+        font-size: 0.88rem;
+    }
+
+    .box2 {
+        /* margin-top: 1rem; */
+    }
+
+    .box2Content {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .appointment{
+        width: 89%;
+    }
+}
