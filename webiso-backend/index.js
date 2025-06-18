@@ -23,6 +23,7 @@ const corsOptions = {
         const allowedOrigins = [
             "http://localhost:3000",
             "http://localhost:5173",
+            process.env.BACKENDURL
         ];
         // Allow requests with no origin (like mobile apps or CURL)
         if (!origin || allowedOrigins.includes(origin)) {
