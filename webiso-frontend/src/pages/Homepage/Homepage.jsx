@@ -1,14 +1,12 @@
-import React from 'react'
-import Banner from '../../components/Banner'
-import About from '../../components/About'
-import Learnmore from '../../components/Learnmore'
-import Slider from '../../components/Slider'
-import Video from '../../components/video'
-import Start from '../../components/start'
-import Products from '../../components/Products'
-import Whychooseus from '../../components/Whychooseus'
-import Review from '../../components/Review'
-import Services from '../../components/Services'
+import Banner from '../../components/Banner.jsx'
+import About from '../../components/About.jsx'
+import Learnmore from '../../components/Learnmore.jsx'
+import Slider from '../../components/Slider.jsx'
+import Start from '../../components/start.jsx'
+import Products from '../../components/Products.jsx'
+import Whychooseus from '../../components/Whychooseus.jsx'
+import Review from '../../components/Review.jsx'
+import Services from '../../components/Services.jsx'
 
 function Homepage() {
     return (

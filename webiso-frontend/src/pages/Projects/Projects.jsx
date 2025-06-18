@@ -1,9 +1,8 @@
-import React from 'react'
-import Title from '../../components/Title'
-import Products from '../../components/Products'
-import Slider from '../../components/Slider'
-import Start from '../../components/start'
-import Review from '../../components/Review'
+import Title from '../../components/Title.jsx'
+import Products from '../../components/Products.jsx'
+import Slider from '../../components/Slider.jsx'
+import Start from '../../components/start.jsx'
+import Review from '../../components/Review.jsx'
 
 function Projects() {
     return (

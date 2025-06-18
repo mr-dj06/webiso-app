@@ -1,9 +1,8 @@
-import React from "react";
-import Title from "../../components/Title";
-import Service from "../../components/Services";
-import Support from "../../components/Support"
-import Whychooseus from "../../components/Whychooseus";
-import Faq from "../../components/Faq";
+import Title from "../../components/Title.jsx";
+import Service from "../../components/Services.jsx";
+import Support from "../../components/Support.jsx"
+import Whychooseus from "../../components/Whychooseus.jsx";
+import Faq from "../../components/Faq.jsx";
 
 function Services() {
     return (

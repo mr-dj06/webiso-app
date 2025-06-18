@@ -1,9 +1,9 @@
 import React from 'react'
-import Title from '../../components/Title'
-import About from '../../components/About'
-import Slider from '../../components/Slider'
-import Start from '../../components/start'
-import Team from '../../components/Team'
+import Title from '../../components/Title.jsx'
+import About from '../../components/About.jsx'
+import Slider from '../../components/Slider.jsx'
+import Start from '../../components/start.jsx'
+import Team from '../../components/Team.jsx'
 
 function Aboutus() {
   return (
