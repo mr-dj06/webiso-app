@@ -29,6 +29,12 @@ npm install (install dependencies)
 npm run dev (run the application)
 ```
 
+## Implementation
+![webiso](https://github.com/user-attachments/assets/af30a165-534e-4a81-8e08-28867ed95596)
+
+### Live demo: https://webiso-app.vercel.app/
+
+
 ## Conclusion
 
 This is a new age animated digital agency website. This could be great starting point to learn animations using framer-motion. In this I have also implemented backend to manage user's data and to store I have used MongoDB —a NoSQL database to retrieve faster data.
